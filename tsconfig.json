@@ -10,6 +10,7 @@
       "~/*": ["./src/*"]
     },
     "resolveJsonModule": true,
+    "types": ["node", "@serwist/vite/typings"],
     "allowJs": true,
     "strict": true,
     "noEmit": true,

@@ -1,6 +1,6 @@
 /// <reference lib="esnext" />
 /// <reference lib="webworker" />
-import { defaultCache } from '@serwist/next/worker'
+import { defaultCache } from '@serwist/vite/worker'
 import { Serwist } from 'serwist'
 import type { PrecacheEntry, SerwistGlobalConfig } from 'serwist'
 
@@ -14,7 +14,10 @@ declare global {
   }
 }
 
+declare const self: ServiceWorkerGlobalScope
+
 const serwist = new Serwist({
+  precacheEntries: self.__SW_MANIFEST,
   skipWaiting: true,
   clientsClaim: true,
   navigationPreload: true,

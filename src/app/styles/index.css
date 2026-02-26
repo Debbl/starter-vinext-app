@@ -2,7 +2,7 @@
 
 @import './preflight.css' layer(base);
 @import './theme.css' layer(theme);
-@import './utilities.css' layer(utilities);
+/* @import './utilities.css' layer(utilities); */
 
 @source "../../src/**/*.{js,ts,jsx,tsx}";
 
