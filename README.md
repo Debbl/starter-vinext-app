@@ -1,4 +1,4 @@
-# starter-next-app
+# starter-vinext-app
 
 [Static Exports](https://nextjs.org/docs/app/building-your-application/deploying/static-exports) first
 
@@ -12,14 +12,6 @@
 ## icons
 
 - [lucide](https://github.com/lucide-icons/lucide)
-
-## i18n
-
-- [lingui](https://github.com/lingui/js-lingui)
-
-```sh
-degit debbl/starter-next-app#with-i18n
-```
 
 ## PWA
 

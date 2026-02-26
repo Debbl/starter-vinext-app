@@ -4,9 +4,9 @@ export const dynamic = 'force-static'
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: 'Starter Next App',
-    short_name: 'Starter Next App',
-    description: 'A Starter Next App built with Next.js',
+    name: 'Starter Vinext App',
+    short_name: 'Starter Vinext App',
+    description: 'A Starter Vinext App built with Vinext',
     start_url: '/',
     display: 'standalone',
     background_color: '#ffffff',
