@@ -1,7 +1,5 @@
 # starter-vinext-app
 
-[Static Exports](https://nextjs.org/docs/app/building-your-application/deploying/static-exports) first
-
 ## ui
 
 - [tailwindcss](https://github.com/tailwindlabs/tailwindcss)
