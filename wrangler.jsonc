@@ -1,0 +1,17 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "starter-vinext-app",
+  "main": "src/worker/index.ts",
+  "compatibility_date": "2026-04-28",
+  "observability": {
+    "enabled": true,
+  },
+  "compatibility_flags": ["nodejs_compat"],
+  "assets": {
+    "directory": "dist/client",
+    "not_found_handling": "none",
+    // Expose static assets to the Worker via env.ASSETS so the image
+    // optimization handler can fetch source images programmatically.
+    "binding": "ASSETS",
+  },
+}
